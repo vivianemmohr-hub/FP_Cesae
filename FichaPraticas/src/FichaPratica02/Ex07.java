@@ -12,11 +12,11 @@ public class Ex07 {
         System.out.print("Introduza um número: ");
         num = input.nextInt();
 
-        if (num / 2) {
-            System.out.print("Número par");
+        if (num % 2 == 0) {
+            System.out.print("O número " + num + " é par");
         }
         else {
-            System.out.print("Número ímpar");
+            System.out.print("O número " + num + " é ímpar");
         }
     }
 }
